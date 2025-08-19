@@ -2,22 +2,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-image: url(../img/png/Bg.png);
-  background-repeat: no-repeat;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  overflow: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1450px;
   width: 100%;
   margin: 0 auto;
+}
+
+header {
+  background-image: url(../img/png/Rectangle.png);
+  width: 100%;
+  height: 700px;
+}
+header .navbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .nav_menu {
+  list-style: none;
+  line-height: 1.5;
+  text-align: end;
+}
+header .navbar .nav_menu a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+}
+header .navbar .nav_menu a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.2s;
+}
+header .navbar .nav_menu a:hover::after {
+  width: 100%;
+}
+header .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+header .hero img {
+  width: 90%;
+}
+header .hero .hero_box {
+  margin-top: 4rem;
+  margin-left: -7rem;
+}
+header .hero .hero_box h1 {
+  font-weight: 400;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

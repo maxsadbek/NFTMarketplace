@@ -1,0 +1,59 @@
+header {
+  background-image: url(../img/png/Rectangle.png);
+  width: 100%;
+  height: 700px;
+  .navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav_menu {
+      list-style: none;
+      line-height: 1.5;
+      text-align: end;
+
+      a {
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+
+        // hover qilganda chiziq chiqadi
+        &::after {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: -3px;
+          width: 0;
+          height: 2px;
+          background: #fff;
+          transition: 0.2s;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    img {
+      width: 90%;
+    }
+    .hero_box {
+      margin-top: 4rem;
+      margin-left: -7rem;
+      h1 {
+        font-weight: 400;
+        margin-top: 1rem;
+        color: #fff;
+        font-size: 50px;
+      }
+    }
+  }
+}
