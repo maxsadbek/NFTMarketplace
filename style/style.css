@@ -64,5 +64,17 @@ header .hero .hero_box h1 {
   color: #fff;
   font-size: 50px;
 }
+header .hero .hero_box .hr {
+  margin-top: 8rem;
+  color: #fff;
+  width: 43%;
+  margin-bottom: 1rem;
+}
+header .hero .hero_box .header_div {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
