@@ -200,4 +200,47 @@ main .create .credit_box h3 {
   font-size: 25px;
 }
 
+footer {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+footer .footer_logo p {
+  font-size: 18px;
+  width: 200px;
+  color: #555;
+}
+footer .footer_box2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+}
+footer .footer_box2 > div p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.7;
+}
+footer .footer_box2 .footer_contact {
+  width: 450px;
+}
+footer .footer_box2 .footer_contact p {
+  font-size: 20px;
+}
+footer .footer_box2 .footer_contact input {
+  margin-top: 3.5rem;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 2px solid #555;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #555;
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */
